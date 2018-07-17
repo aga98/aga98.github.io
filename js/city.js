@@ -1,9 +1,12 @@
 var slide_place = 1;
 var slide_rest = 1;
-var places = 3;
-var restaurants = 1;
+var places;
+var restaurants;
 
 $(document).ready(function(){
+    places = $(".place-desc > div").length;
+    restaurants = $(".rest-desc > div").length;
+
 	$("#place1").css("display","block");
 	$("#rest1").css("display","block");
 
