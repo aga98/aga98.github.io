@@ -39,7 +39,7 @@ $(document).ready(function(){
     });
     $("#nextrest").click(function(){
     	$(".place-cont > .rest-desc > div").css("display", "none");
-    	if(slide_place == restaurants) slide_rest = 1;
+    	if(slide_rest == restaurants) slide_rest = 1;
     	else ++slide_rest;
     	var p = "rest" + slide_rest.toString();
     	if(restaurants != 1){
@@ -47,9 +47,9 @@ $(document).ready(function(){
     	}
     	$("#" + p).css("display","block");
     });
-    $("#nextrest").click(function(){
+    $("#prevrest").click(function(){
     	$(".place-cont > .rest-desc > div").css("display", "none");
-    	if(slide_place == 1) slide_rest = restaurants;
+    	if(slide_rest == 1) slide_rest = restaurants;
     	else --slide_rest;
     	var p = "rest" + slide_rest.toString();
     	if(restaurants != 1){
