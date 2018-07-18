@@ -13,7 +13,6 @@ function initMap(){
 	}).addTo(mymap);
 
 	L.marker([44.342769, -76.047971]).addTo(mymap).bindPopup('THOUSAND ISLANDS');
-    L.marker([45.428675, -75.692449]).addTo(mymap).bindPopup("TUCKER'S MARKETPLACE");
     L.marker([43.656390, -79.383693]).addTo(mymap).bindPopup('RED LOBSTER');
     L.marker([43.642523, -79.387054]).addTo(mymap).bindPopup('CN TOWER');
     L.marker([43.652362, -79.383666]).addTo(mymap).bindPopup('TORONTO CITY HALL');
