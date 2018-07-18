@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Capri</title>
+	<link rel="stylesheet" href="../scss/city.css">
+	<link rel="stylesheet" href="../scss/footer.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/jquery.min.js"></script>
+	<link rel="stylesheet" href="../leaflet/leaflet.css">
+	<script src="../leaflet/leaflet.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" src="../js/city.js"></script>
+	<script type="text/javascript" src="../js/caprimap.js"></script>
+	<link rel="stylesheet" href="../bootstrap-4.1.1/css/bootstrap.min.css">
+	<script src="../bootstrap-4.1.1/js/bootstrap.min.js"></script>
+	<link rel="icon" href="../media/plane.png">
+	<link rel="stylesheet" href="../css/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+</head>
+<body>
+	<div id="header">
+		<span id="title"><a href="../index.html" target="_blank">Discover My World</a></span>
+		<div id="container_top">
+			<a href="https://www.facebook.com/algimeneneza" target="_blank"><img class="social" src="../media/facebook.svg" alt="Facebook"></a>
+			<a href="https://www.instagram.com/algimeneza" target="_blank"><img class="social" " src="../media/instagram.svg" alt="Instagram"></a>
+			<span id="dark">DARK MODE</span>
+			<label class="switch">
+		  		<input type="checkbox" id="night">
+		 		<span class="slider round"></span>
+			</label>
+		</div>
+	</div>
+	<div class="underheader"></div>
+	<div class="flagcont">
+		<div><img src="../media/italy/flag.png" alt="flag" id="can_flag"></div>
+		<span>CAPRI</span>
+	</div>
+	<div class="activity">
+		<hr class="myhr">
+		<p class="activ-desc">WHAT TO SEE</p>
+		<hr class="myhr">
+	</div>
+
+	<div class="place-cont">
+		<div class="place-desc">
+			<div id="place1">
+				<h3>1. NIAGARA FALLS</h3>
+				<p>Niagara Falls is the collective name for three waterfalls that straddle the international border between the Canadian province of Ontario and the American state of New York. They form the southern end of the Niagara Gorge.From largest to smallest, the three waterfalls are the Horseshoe Falls, the American Falls and the Bridal Veil Falls. The Horseshoe Falls lies on the border of the United States and Canada[1] with the American Falls entirely on the United States' side, separated by Goat Island. The smaller Bridal Veil Falls are also on the United States' side, separated from the American Falls by Luna Island.Located on the Niagara River, which drains Lake Erie into Lake Ontario, the combined falls form the highest flow rate of any waterfall in North America that has a vertical drop of more than 165 feet (50 m). </p>
+				<div id="TA_cdsscrollingravenarrow208" class="TA_cdsscrollingravenarrow">
+					<ul id="hmrze1Jif" class="TA_links qqwXExEOZn">
+						<li id="6AUZrAMp" class="5QPS3o">
+							<a target="_blank" href="https://www.tripadvisor.ca/"><img src="https://static.tacdn.com/img2/t4b/Stacked_TA_logo.png" alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=cdsscrollingravenarrow&amp;uniq=208&amp;locationId=186167&amp;lang=en_CA&amp;border=true&amp;display_version=2"></script>
+			</div>
+
+			<div id="place2">
+				<h3>2. NIAGARA ON THE LAKE</h3>
+				<p>Niagara-on-the-Lake is a Canadian city located in southern Ontario, where the Niagara River reaches Lake Ontario. It is known as the most beautiful city in Ontario and has a long and distinguished history. It is a tourist destination that many people visit all year round for its varied culinary offer, its wineries, for the Shaw Festival, for its hiking trails and for the rich local agriculture. The streets and buildings are very careful and have a very romantic touch. You will find charming accommodations, from 5-star hotels to cozy B&Bs.</p>
+				<div id="TA_certificateOfExcellence20" class="TA_certificateOfExcellence">
+					<ul id="eWon4Rjp" class="TA_links VBcut2a">
+						<li id="DTslJ0UbQi" class="KMMFfN">
+							<a target="_blank" href="https://www.tripadvisor.es/Attraction_Review-g154999-d10673630-Reviews-Niagara_on_the_Lake_Heritage_District-Niagara_on_the_Lake_Ontario.html"><img src="https://www.tripadvisor.es/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=20&amp;locationId=10673630&amp;lang=es&amp;year=2018&amp;display_version=2"></script>
+			</div>
+		</div>
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="../media/canada/niagara.jpg" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="../media/canada/onthelake.jpg" alt="Second slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" id="prevplace">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" id="nextplace">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+
+	<div class="activity">
+		<hr class="myhr">
+		<p class="activ-desc">WHERE TO EAT</p>
+		<hr class="myhr">
+	</div>
+	<div class="place-cont">
+		<div class="rest-desc">
+			<div id="rest1">
+				<h3>1. SKYLON TOWER</h3>
+				<ul class="w3-ul">	
+					<li><i class="material-icons w3-large">restaurant</i> American, Vegan Options, Gluten Free Options</li>
+					<li><i class="material-icons w3-large">place</i> 5200 Robinson St, Niagara Falls, ON L2G 2A3, Canada</li>
+					<li><i class="material-icons w3-large">access_time</i>
+						<ul>
+							<li>Monday to Sunday: 10:30 - 21:30</li>
+						</ul>
+					</li>
+					<li><i class="material-icons w3-large">local_phone</i> +1 905-356-2651</li>
+					<li><i class="material-icons w3-large">laptop_chromebook</i><a href="https://www.skylon.com/niagara-falls-dining/revolving-dining-room/" target="_blank"> www.skylon.com</a></li>
+				</ul>
+				<div id="TA_cdsratingsonlynarrow987" class="TA_cdsratingsonlynarrow">
+					<ul id="NyBJB3l" class="TA_links g17LWVh">
+						<li id="hHS9kk" class="diJfoSPu2KDl">
+							<a target="_blank" href="https://www.tripadvisor.es/"><img src="https://www.tripadvisor.es/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=987&amp;locationId=709042&amp;lang=es&amp;border=true&amp;display_version=2"></script>
+			</div>
+		</div>
+		<div id="carouselEat" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselEat" data-slide-to="0" class="active"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="../media/canada/skylon.jpg" alt="First slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselEat" role="button" data-slide="prev" id="prevrest">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselEat" role="button" data-slide="next" id="nextrest">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+	<div class="activity">
+		<hr class="myhr">
+		<p class="activ-desc maptitle">MAP</p>
+		<hr class="myhr">
+	</div>
+	<div id="map"></div>
+	<footer>
+		<span id="contact">CONTACT</span>
+		<p>Do you want more information about any city? Do you have any suggestion to improve the webpage?
+		Contact me and I will reply as soon as possible. </p>
+		<form action="mailto:algimeneza@gmail.com" method="post" enctype="text/plain" id="myform">
+			First Name: <br>
+			<input type="text" name="fname">
+			<br>
+			Last Name: <br>
+			<input type="text" name="lname">
+			<br>
+			Message: <br>
+			<textarea name="body" id="xtarea" cols="80" rows="5"></textarea>
+			<br>	
+			<input type="submit" name="SUBMIT" value="SUBMIT" id="sub">
+		</form>
+		<section id="credits">
+			<span></span>
+		</section>
+	</footer>
+</body>
+</html>
