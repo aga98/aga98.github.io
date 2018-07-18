@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Toronto</title>
+	<link rel="stylesheet" href="../scss/city.css">
+	<link rel="stylesheet" href="../scss/footer.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/jquery.min.js"></script>
+	<link rel="stylesheet" href="../leaflet/leaflet.css">
+	<script src="../leaflet/leaflet.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" src="../js/city.js"></script>
+	<script type="text/javascript" src="../js/torontomap.js"></script>
+	<link rel="stylesheet" href="../bootstrap-4.1.1/css/bootstrap.min.css">
+	<script src="../bootstrap-4.1.1/js/bootstrap.min.js"></script>
+	<link rel="icon" href="../media/plane.png">
+	<link rel="stylesheet" href="../css/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+</head>
+<body>
+	<div id="header">
+		<span id="title"><a href="../index.html" target="_blank">Discover My World</a></span>
+		<div id="container_top">
+			<a href="https://www.facebook.com/algimeneneza" target="_blank"><img class="social" src="../media/facebook.svg" alt="Facebook"></a>
+			<a href="https://www.instagram.com/algimeneza" target="_blank"><img class="social" " src="../media/instagram.svg" alt="Instagram"></a>
+			<span id="dark">DARK MODE</span>
+			<label class="switch">
+		  		<input type="checkbox" id="night">
+		 		<span class="slider round"></span>
+			</label>
+		</div>
+	</div>
+	<div class="underheader"></div>
+	<div class="flagcont">
+		<div><img src="../media/canada/flag.png" alt="flag" id="can_flag"></div>
+		<span>TORONTO</span>
+	</div>
+	<div class="activity">
+		<hr class="myhr">
+		<p class="activ-desc">WHAT TO SEE</p>
+		<hr class="myhr">
+	</div>
+
+	<div class="place-cont">
+		<div class="place-desc">
+			<div id="place1">
+				<h3>1. 3D TORONTO SIGN AND CITY HALL</h3>
+				<p>The 3D Toronto sign, commonly known as the Toronto sign, is an illuminated three-dimensional sign in Nathan Phillips Square in Toronto, that spells the city's name.It is 3 metres tall, and 22 metres long (prior to the addition of the maple leaf in late 2016), lit by LED lights controlled via Wi-Fi, that can create an estimated 228 million colour combinations, approximately equal to that of what the human eye can sense. This is a nice area for pictures and people watching. In colder weather, you can ice skate here. There are restaurants nearby.</p>
+				<div id="TA_linkingWidgetRedesign222" class="TA_linkingWidgetRedesign">
+					<ul id="G9xcWK" class="TA_links AG0woY8O5K">
+						<li id="ORhMbpr" class="tuxSv3eSfzrA">
+							<a target="_blank" href="https://www.tripadvisor.ca/"><img src="https://www.tripadvisor.ca/img/cdsi/partner/tripadvisor_logo_115x18-15079-2.gif" alt="TripAdvisor"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=linkingWidgetRedesign&amp;uniq=222&amp;locationId=184942&amp;lang=en_CA&amp;border=true&amp;display_version=2"></script>
+			</div>
+			<div id="place2">
+				<h3>2. CN TOWER</h3>
+				<p>Defining the Toronto skyline at 553.33m the CN Tower is Canada’s most recognizable and celebrated icon. The CN Tower is an internationally renowned architectural triumph, an engineering Wonder of the Modern World, world-class entertainment and dining destination and a must see for anyone visiting Toronto. Spectacular views include floor-to-ceiling panoramic Window Walls, world-famous Glass Floor, SkyPod and glass fronted elevators with glass floor panels. Dining options include the award-winning 360 Restaurant.</p>
+				<div id="TA_excellent279" class="TA_excellent">
+					<ul id="AJM2Vz" class="TA_links G6qHlYQDz">
+						<li id="zy5OD3gXQep" class="EiRF5QA">
+							<a target="_blank" href="https://www.tripadvisor.ca/"><img src="https://static.tacdn.com/img2/widget/tripadvisor_logo_115x18.gif" alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=excellent&amp;uniq=279&amp;locationId=155483&amp;lang=en_CA&amp;display_version=2"></script>
+			</div>
+			<div id="place3">
+				<h3>3. THOUSAND ISLANDS</h3>
+				<p>The 1000 Islands is a sightseer’s paradise and a popular destination for those looking for an authentic outdoor vacation. Located along the peaceful border between northern New York State (United States) and southeastern Ontario (Canada), the 1000 Islands is a region of endless shorelines, rich history and unique culture.</p>
+				<div id="TA_linkingWidgetRedesign941" class="TA_linkingWidgetRedesign">
+					<ul id="MD0gVAMmJM40" class="TA_links ix2UCNbWh">
+						<li id="DSdlGOPgR9n" class="e1QY2eIE">
+							<a target="_blank" href="https://www.tripadvisor.co.uk/"><img src="https://www.tripadvisor.co.uk/img/cdsi/partner/tripadvisor_logo_115x18-15079-2.gif" alt="TripAdvisor"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=linkingWidgetRedesign&amp;uniq=941&amp;locationId=1916546&amp;lang=en_UK&amp;border=true&amp;display_version=2"></script>
+			</div>
+		</div>
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="../media/canada/square.JPG" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="../media/canada/cn.JPG" alt="Second slide">
+		    </div>
+		     <div class="carousel-item">
+		      <img class="d-block w-100" src="../media/canada/islands.JPG" alt="Second slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" id="prevplace">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" id="nextplace">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+
+	<div class="activity">
+		<hr class="myhr">
+		<p class="activ-desc">WHERE TO EAT</p>
+		<hr class="myhr">
+	</div>
+	<div class="place-cont">
+		<div class="rest-desc">
+			<div id="rest1">
+				<h3>1. RED LOBSTER</h3>
+				<ul class="w3-ul">	
+					<li><i class="material-icons w3-large">restaurant</i> American, Seafood, Canadian</li>
+					<li><i class="material-icons w3-large">place</i> 20 Dundas St W | Atrium at the Bay, Toronto, Ontario, Canada</li>
+					<li><i class="material-icons w3-large">access_time</i>
+						<ul>
+							<li>Sunday to Thursday: 11:00 - 22:00</li>
+							<li>Friday to Saturday: 11:00 - 23:00</li>
+						</ul>
+					</li>
+					<li><i class="material-icons w3-large">local_phone</i> +1 416-348-8938</li>
+					<li><i class="material-icons w3-large">laptop_chromebook</i><a href="https://www.redlobster.ca/" target="_blank"> www.redlobster.ca</a></li>
+				</ul>
+				<<div id="TA_cdsratingsonlynarrow613" class="TA_cdsratingsonlynarrow">
+					<ul id="x4jR04w" class="TA_links vVrXWV5">
+						<li id="qGeXfC" class="SXrNqQFDTJ4">
+							<a target="_blank" href="https://www.tripadvisor.ca/"><img src="https://www.tripadvisor.ca/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=613&amp;locationId=5000612&amp;lang=en_CA&amp;border=true&amp;display_version=2"></script>
+
+			</div>
+		</div>
+		<div id="carouselEat" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselEat" data-slide-to="0" class="active"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="../media/canada/lobster.JPG" alt="First slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselEat" role="button" data-slide="prev" id="prevrest">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselEat" role="button" data-slide="next" id="nextrest">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+	<div class="activity">
+		<hr class="myhr">
+		<p class="activ-desc maptitle">MAP</p>
+		<hr class="myhr">
+	</div>
+	<div id="map"></div>
+	<footer>
+		<span id="contact">CONTACT</span>
+		<p>Do you want more information about any city? Do you have any suggestion to improve the webpage?
+		Contact me and I will reply as soon as possible. </p>
+		<form action="mailto:algimeneza@gmail.com" method="post" enctype="text/plain" id="myform">
+			First Name: <br>
+			<input type="text" name="fname">
+			<br>
+			Last Name: <br>
+			<input type="text" name="lname">
+			<br>
+			Message: <br>
+			<textarea name="body" id="xtarea" cols="80" rows="5"></textarea>
+			<br>	
+			<input type="submit" name="SUBMIT" value="SUBMIT" id="sub">
+		</form>
+		<section id="credits">
+			<span></span>
+		</section>
+	</footer>
+</body>
+</html>
