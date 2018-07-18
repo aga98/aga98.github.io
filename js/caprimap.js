@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 
 function initMap(){
-	var mymap = L.map('map').setView([43.987021, -77.819589], 9);
+	var mymap = L.map('map').setView([40.550768, 14.231231], 15);
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
@@ -15,8 +15,6 @@ function initMap(){
     accessToken: 'pk.eyJ1IjoiYWdhOTgiLCJhIjoiY2pqb2pmbXM4MHRwazN3bGU1c2RwYjEwNiJ9.AiTusF62WVe7FiBxkVq0CA'
 	}).addTo(mymap);
 
-	L.marker([44.342769, -76.047971]).addTo(mymap).bindPopup('THOUSAND ISLANDS');
-    L.marker([43.656390, -79.383693]).addTo(mymap).bindPopup('RED LOBSTER');
-    L.marker([43.642523, -79.387054]).addTo(mymap).bindPopup('CN TOWER');
-    L.marker([43.652362, -79.383666]).addTo(mymap).bindPopup('TORONTO CITY HALL');
+	L.marker([40.550242, 14.257072]).addTo(mymap).bindPopup('NATURAL ARCH');
+    L.marker([40.550933, 14.242684]).addTo(mymap).bindPopup('FUNICOLARE AND PIAZZETA');
 }
