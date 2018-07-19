@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Roma</title>
+	<link rel="stylesheet" href="../scss/city.css">
+	<link rel="stylesheet" href="../scss/footer.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/jquery.min.js"></script>
+	<link rel="stylesheet" href="../leaflet/leaflet.css">
+	<script src="../leaflet/leaflet.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" src="../js/city.js"></script>
+	<script type="text/javascript" src="../js/romamap.js"></script>
+	<link rel="stylesheet" href="../bootstrap-4.1.1/css/bootstrap.min.css">
+	<script src="../bootstrap-4.1.1/js/bootstrap.min.js"></script>
+	<link rel="icon" href="../media/plane.png">
+	<link rel="stylesheet" href="../css/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+</head>
+<body>
+	<div id="header">
+		<span id="title"><a href="../index.html" target="_blank">Discover My World</a></span>
+		<div id="container_top">
+			<a href="https://www.facebook.com/algimeneneza" target="_blank"><img class="social" src="../media/facebook.svg" alt="Facebook"></a>
+			<a href="https://www.instagram.com/algimeneza" target="_blank"><img class="social" " src="../media/instagram.svg" alt="Instagram"></a>
+			<span id="dark">DARK MODE</span>
+			<label class="switch">
+		  		<input type="checkbox" id="night">
+		 		<span class="slider round"></span>
+			</label>
+		</div>
+	</div>
+	<div class="underheader" id="top"></div>
+	<div class="flagcont">
+		<div><img src="../media/italy/flag.png" alt="flag" id="can_flag"></div>
+		<span>ROMA</span>
+	</div>
+	<div class="activity">
+		<hr class="myhr">
+		<p class="activ-desc">WHAT TO SEE</p>
+		<hr class="myhr">
+	</div>
+
+	<div class="place-cont">
+		<div class="place-desc">
+			<div id="place1">
+				<h3>1. COLOSSEO</h3>
+				<p> The "Colosseum" or "Coliseum", started by Emperor Vespasian of the Flavia family, it was opened by his son Titus in 80 A.D. The highly ostentatious opening ceremony, lasted one hundred days during which people saw great fights, shows and hunts involving the killing of thousands of animals (5000 according to the historian Suetonius). For the opening, the arena space was filled with water for one of the most fantastic events held in Roman times, naumachias – real sea battles reproducing great battles of the past.</p>
+				<div id="TA_certificateOfExcellence64" class="TA_certificateOfExcellence">
+					<ul id="O0IbIkJz9K5" class="TA_links jbnkIaL3Igq">
+						<li id="Rjv9i2fL5uXg" class="KNkd5x6">
+							<a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g187791-d192285-Reviews-Colosseum-Rome_Lazio.html"><img src="https://www.tripadvisor.com/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=64&amp;locationId=192285&amp;lang=en_US&amp;year=2017&amp;display_version=2"></script>
+			</div>
+			<div id="place2">
+				<h3>2. FONTANA DI TREVI</h3>
+				<p>The Fontana di Trevi - or Trevi Fountain in English -is a fountain in Rome, Italy. It is the largest Baroque fountain in the city and the most beautiful in the world. A traditional legend holds that if visitors throw a coin into the fountain, they are ensured a return to Rome. The fountain is worldwide famous but many people do not know the history and the secrets hidden behind its construction. It is time to do justice to this extraordinary masterpiece of Italian art.</p>
+				<div id="TA_excellent410" class="TA_excellent">
+					<ul id="I9y2GNjG2f" class="TA_links Cw2pUEnLiv">
+						<li id="4F4cuB1" class="FqsMUY8TUXhN">
+							<a target="_blank" href="https://www.tripadvisor.com/"><img src="https://static.tacdn.com/img2/widget/tripadvisor_logo_115x18.gif" alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=excellent&amp;uniq=410&amp;locationId=190131&amp;lang=en_US&amp;display_version=2"></script>
+
+			</div>
+			<div id="place3">
+				<h3>3. PIAZZA VENEZIA</h3>
+				<p>Anyone visiting Rome will sooner or later end up at Piazza Venezia. This square is located in the heart of Rome, at the end of the Via del Corso. From here it's only a short walk to some of Rome's most famous sights like the Capitoline Hill, the Roman Forum and the Pantheon. Unlike several more pleasant Roman piazza's like the Piazza del Popolo or the Piazza Navona, chaotic traffic dominates the square. While you won't be able to relax here, there are some sights around the square worth visiting.</p>
+				<div id="TA_cdsscrollingravenarrow626" class="TA_cdsscrollingravenarrow">
+					<ul id="GfLg0UAX8rB" class="TA_links FXE8tGLH">
+						<li id="GuUr9ehvK" class="UwJ9Rkr">
+							<a target="_blank" href="https://www.tripadvisor.com/"><img src="https://static.tacdn.com/img2/t4b/Stacked_TA_logo.png" alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=cdsscrollingravenarrow&amp;uniq=626&amp;locationId=190997&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+
+			</div>
+			<div id="place4">
+				<h3>4. PIAZZA NAVONA</h3>
+				<p>From the shadows of the ancient, winding streets of the historic center you suddenly come upon the breathtaking magnificence of Piazza Navona, born as a place of spectacle and still today a spectacular open air show; an architectural miracle in the heart of the Eternal City, filled with masterpieces in perfect harmony with each other. This piazza, which displays the genius of Bernini and Borromini, is one of the finest Baroque Masterpiece in papal Rome. Its harmony and colors, combined with its elegance, give it a charm that is enhanced by the surprising contrast of architecturally sober houses alternating with a number of monumental Buildings.</p>
+				<div id="TA_tchotel251" class="TA_tchotel">
+					<ul id="k7MQEOI" class="TA_links SezFrXpIPo">
+						<li id="3EZKfk" class="3klnLg">
+							<a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g187791-d190121-Reviews-Piazza_Navona-Rome_Lazio.html"><img src="https://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2017_L_TM-11655-2.jpg" alt="TripAdvisor"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=tchotel&amp;uniq=251&amp;locationId=190121&amp;lang=en_US&amp;year=2017&amp;display_version=2"></script>
+			</div>
+			<div id="place5">
+				<h3>5. PANTHEON</h3>
+				<p>The Pantheon (Latin: pantheum) is the best-preserved building from ancient Rome and was completed in c. 125 CE in the reign of Hadrian. Its magnificent dome is a lasting testimony to the genius of Roman architects and as the building stands virtually intact it offers a unique opportunity for the modern visitor to step back 2,000 years and experience the glory that was Rome.</p>
+				<div id="TA_excellent508" class="TA_excellent">
+					<ul id="hwhdjb31NR" class="TA_links ZXPKeBHFWv">
+						<li id="DCIPqZm" class="oLPnmu">
+							<a target="_blank" href="https://www.tripadvisor.com/"><img src="https://static.tacdn.com/img2/widget/tripadvisor_logo_115x18.gif" alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=excellent&amp;uniq=508&amp;locationId=197714&amp;lang=en_US&amp;display_version=2"></script>
+
+			</div>
+			<div id="place6">
+				<h3>6. PIAZZA SAN PIETRO</h3>
+				<p>St. Peter's Square is a large plaza located directly in front of St. Peter's Basilica in the Vatican City, the papal enclave inside Rome, directly west of the neighbourhood or rione of Borgo. Both the square and the basilica are named after Saint Peter, an apostle of Jesus and the first Catholic Pope. At the centre of the square there is an ancient Egyptian obelisk, erected at the current site in 1586. Gian Lorenzo Bernini designed the square almost 100 years later, including the massive Tuscan colonnades, four columns deep, which embrace visitors in "the maternal arms of Mother Church". A granite fountain constructed by Bernini in 1675 matches another fountain designed by Carlo Maderno in 1613.</p>
+				<div id="TA_linkingWidgetRedesign515" class="TA_linkingWidgetRedesign">
+					<ul id="cc3Y67bZk7s" class="TA_links nW0f5Pq7r9d">
+						<li id="3TC3fGjudW" class="MYUCJfa6KO">
+							<a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/partner/tripadvisor_logo_115x18-15079-2.gif" alt="TripAdvisor"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=linkingWidgetRedesign&amp;uniq=515&amp;locationId=191109&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+
+			</div>
+		</div>
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="../media/italy/roma.jpg" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="../media/italy/trevi.JPG" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="../media/italy/piazzavenezia.jpg" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="../media/italy/navona.jpg" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="../media/italy/pantheon.jpg" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="../media/italy/sanpietro.jpg" alt="Second slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" id="prevplace">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" id="nextplace">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+
+
+	<div class="activity">
+		<hr class="myhr">
+		<p class="activ-desc">WHERE TO EAT</p>
+		<hr class="myhr">
+	</div>
+	<div class="place-cont">
+		<div class="rest-desc">
+			<div id="rest1">
+				<h3>1. GIOLITTI</h3>
+				<ul class="w3-ul">	
+					<li><i class="material-icons w3-large">restaurant</i> Desserts, Italian</li>
+					<li><i class="material-icons w3-large">place</i> Via Uffici del Vicario, 40, 00144 Rome, Italy</li>
+					<li><i class="material-icons w3-large">access_time</i>
+						<ul>
+							<li>Monday to Sunday: 7:00 - 2:00</li>
+						</ul>
+					</li>
+					<li><i class="material-icons w3-large">local_phone</i> +39 06 699 1243</li>
+					<li><i class="material-icons w3-large">laptop_chromebook</i><a href="http://www.giolitti.it" target="_blank"> www.giolitti.it</a></li>
+				</ul>
+				<div id="TA_cdsratingsonlynarrow862" class="TA_cdsratingsonlynarrow">
+					<ul id="hlVBTE4zzVA" class="TA_links PX9eZMi5NG">
+						<li id="MCPBrJ1k" class="LkZY6SawL7">
+							<a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=862&amp;locationId=1061568&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+
+			</div>
+			<div id="rest2">
+				<h3>2. RISTORANTE COLOSSEO "LUZZI"</h3>
+				<ul class="w3-ul">	
+					<li><i class="material-icons w3-large">restaurant</i> Italian, Vegetarian Friendly</li>
+					<li><i class="material-icons w3-large">place</i> Via di San Giovanni in Laterano 88, 00184 Rome, Italy</li>
+					<li><i class="material-icons w3-large">access_time</i>
+						<ul>
+							<li>Monday to Tuesday: 12:00 - 00:00, Thursday to Sunday: 12:00 - 00:00 </li>
+							<li>Thursday: Closed</li>
+						</ul>
+					</li>
+					<li><i class="material-icons w3-large">local_phone</i> +39 06 709 6332</li>
+					<li><i class="material-icons w3-large">laptop_chromebook</i><a href="http://www.trattorialuzzi.it" target="_blank"> www.trattorialuzzi.it</a></li>
+				</ul>
+				<div id="TA_cdsratingsonlynarrow99" class="TA_cdsratingsonlynarrow">
+					<ul id="Jl2gnwvb" class="TA_links mLia8Aq4Bo">
+						<li id="cpjSQL3" class="Kyrhq3qQZjTh">
+							<a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=99&amp;locationId=1170712&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+			</div>
+		</div>
+		<div id="carouselEat" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselEat" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselEat" data-slide-to="1"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="../media/italy/giolitti.jpg" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="../media/italy/luzzi.png" alt="First slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselEat" role="button" data-slide="prev" id="prevrest">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselEat" role="button" data-slide="next" id="nextrest">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+
+	<div class="activity">
+		<hr class="myhr">
+		<p class="activ-desc maptitle">MAP</p>
+		<hr class="myhr">
+	</div>
+	<div id="map"></div>
+	<footer>
+		<span id="contact">CONTACT</span>
+		<p>Do you want more information about any city? Do you have any suggestion to improve the webpage?
+		Contact me and I will reply as soon as possible. </p>
+		<form action="mailto:algimeneza@gmail.com" method="post" enctype="text/plain" id="myform">
+			First Name: <br>
+			<input type="text" name="fname">
+			<br>
+			Last Name: <br>
+			<input type="text" name="lname">
+			<br>
+			Message: <br>
+			<textarea name="body" id="xtarea" cols="80" rows="5"></textarea>
+			<br>	
+			<input type="submit" name="SUBMIT" value="SUBMIT" id="sub">
+		</form>
+		<a href="#top"><img src="../media/up.svg" alt="UP" id="up"></a>
+		<section id="credits">
+			<span></span>
+		</section>
+	</footer>
+</body>
+</html>
