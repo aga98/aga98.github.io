@@ -66,7 +66,7 @@ function light(){
 	$(".header-country").css("color","#545454");
 	$("section div div").css("background-color","#474747");
 	$("footer").css("background-color","#171a21");
-	$("#credits").css("background-color","#787878");
+	$("#credits").css("background-color","#455A64");
 	$(".activ-desc").css("color", "#545454");
 	$(".myhr").css("border-top", "1px solid #AEAEAE");
 	$(".place-desc > div > p, .place-desc > div > h3").css("color", "#545454");
