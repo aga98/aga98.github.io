@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tromsø</title>
+	<link rel="stylesheet" href="../scss/city.css">
+	<link rel="stylesheet" href="../scss/footer.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/jquery.min.js"></script>
+	<link rel="stylesheet" href="../leaflet/leaflet.css">
+	<script src="../leaflet/leaflet.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" src="../js/city.js"></script>
+	<script type="text/javascript" src="../js/tromsomap.js"></script>
+	<link rel="stylesheet" href="../bootstrap-4.1.1/css/bootstrap.min.css">
+	<script src="../bootstrap-4.1.1/js/bootstrap.min.js"></script>
+	<link rel="icon" href="../media/plane.png">
+	<link rel="stylesheet" href="../css/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+</head>
+<body>
+	<div id="header">
+		<span id="title"><a href="../index.html" target="_blank">Discover My World</a></span>
+		<div id="container_top">
+			<a href="https://www.facebook.com/algimeneneza" target="_blank"><img class="social" src="../media/facebook.svg" alt="Facebook"></a>
+			<a href="https://www.instagram.com/algimeneza" target="_blank"><img class="social" " src="../media/instagram.svg" alt="Instagram"></a>
+			<span id="dark">DARK MODE</span>
+			<label class="switch">
+		  		<input type="checkbox" id="night">
+		 		<span class="slider round"></span>
+			</label>
+		</div>
+	</div>
+	<div class="underheader" id="top"></div>
+	<div class="flagcont">
+		<div><img src="../media/norway/flag.svg.png" alt="flag" id="can_flag"></div>
+		<span>TROMSØ</span>
+	</div>
+	<div class="activity">
+		<hr class="myhr">
+		<p class="activ-desc">WHAT TO SEE</p>
+		<hr class="myhr">
+	</div>
+
+	<div class="place-cont">
+		<div class="place-desc">
+			<div id="place1">
+				<h3>1. FJELLHEISEN </h3>
+				<p> The cable car runs from Solliveien in Tromsdalen up to the mountain ledge Storsteinen (421 m above sea level) in just four minutes. The two gondolas, known as Seal and Polar bear, each have a capacity of 28 passengers. From the viewing platform at the upper station, you can enjoy spectacular panoramic views of Tromsø and the surrounding islands, mountains and fjords. At the fully licensed Fjellstua restaurant, you can enjoy a delicious dinner based on local produce or select light meals from the café menu, while you take pleasure in the view.</p>
+				<div id="TA_cdsscrollingravenarrow933" class="TA_cdsscrollingravenarrow">
+					<ul id="wNX6AwCRq" class="TA_links 6YFutuLKrw">
+						<li id="eBBnWwx" class="7oT7cN">
+							<a target="_blank" href="https://www.tripadvisor.com/"><img src="https://static.tacdn.com/img2/t4b/Stacked_TA_logo.png" alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=cdsscrollingravenarrow&amp;uniq=933&amp;locationId=1889657&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+
+			</div>
+			<div id="place2">
+				<h3>2. THE ARCTIC CATHEDRAL</h3>
+				<p>Tromsdalen Church, also known as Ishavskatedralen (The Arctic Cathedral) was dedicated on November 19, 1965. Architect Jan Inge Hovig succeeded in creating a masterpiece. The cathedral is a landmark visible from the Tromsø Sound, the Tromsø Bridge and when landing in Tromsø by aircraft. The 11 aluminium-coated concrete panels on each side of the roof provide the cathedral’s form.</p>
+				<div id="TA_tchotel575" class="TA_tchotel">
+					<ul id="3sEZJNTX" class="TA_links zsRSgUoMm">
+						<li id="RTTOmvzbWJ" class="Bcqeq35QjmI">
+							<a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g190475-d319314-Reviews-Arctic_Cathedral-Tromso_Troms_Northern_Norway.html"><img src="https://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2017_L_TM-11655-2.jpg" alt="TripAdvisor"/></a>
+						</li>
+					</ul>
+				</div>
+				<script async src="https://www.jscache.com/wejs?wtype=tchotel&amp;uniq=575&amp;locationId=319314&amp;lang=en_US&amp;year=2017&amp;display_version=2"></script>
+			</div>
+		</div>
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="../media/norway/tromso.jpg" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="../media/norway/church.JPG" alt="Second slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" id="prevplace">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" id="nextplace">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+	<div class="activity">
+		<hr class="myhr">
+		<p class="activ-desc maptitle">MAP</p>
+		<hr class="myhr">
+	</div>
+	<div id="map"></div>
+	<footer>
+		<span id="contact">CONTACT</span>
+		<p>Do you want more information about any city? Do you have any suggestion to improve the webpage?
+		Contact me and I will reply as soon as possible. </p>
+		<form action="mailto:algimeneza@gmail.com" method="post" enctype="text/plain" id="myform">
+			First Name: <br>
+			<input type="text" name="fname">
+			<br>
+			Last Name: <br>
+			<input type="text" name="lname">
+			<br>
+			Message: <br>
+			<textarea name="body" id="xtarea" cols="80" rows="5"></textarea>
+			<br>	
+			<input type="submit" name="SUBMIT" value="SUBMIT" id="sub">
+		</form>
+		<a href="#top"><img src="../media/up.png" alt="UP" id="up"></a>
+		<section id="credits">
+			<span></span>
+		</section>
+	</footer>
+</body>
+</html>
