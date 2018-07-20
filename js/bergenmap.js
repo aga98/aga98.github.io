@@ -8,6 +8,10 @@ $(document).ready(function(){
 
 function initMap(){
 	var mymap = L.map('map').setView([60.394785, 5.329667], 15);
+    mymap.scrollWheelZoom.disable();
+    mymap.on('focus', function() { mymap.scrollWheelZoom.enable(); });
+    mymap.on('blur', function() { mymap.scrollWheelZoom.disable(); });
+
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
@@ -18,4 +22,6 @@ function initMap(){
     L.marker([60.397119, 5.323246]).addTo(mymap).bindPopup('BRYGGEN');
     L.marker([60.394826, 5.343617]).addTo(mymap).bindPopup('MOUNT FLØYEN');
     L.marker([60.394647, 5.324024]).addTo(mymap).bindPopup('FISHMARKET');
+
+    
 }
