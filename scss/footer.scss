@@ -45,6 +45,7 @@ footer{
 		animation-name: move;
 		animation-duration: 1.25s;
 		animation-iteration-count: infinite;
+		z-index: 2;
 	}
 	#credits{
 		width: 100%;
