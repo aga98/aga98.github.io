@@ -4,6 +4,7 @@ var places;
 var restaurants;
 
 $(document).ready(function(){
+
     places = $(".place-desc > div").length;
     restaurants = $(".rest-desc > div").length;
 
@@ -15,6 +16,9 @@ $(document).ready(function(){
     });
     initMap();
     $("#nextplace").click(function(){
+        $(this).hide();
+        setTimeout(activate, 500);
+
     	$(".place-cont > .place-desc > div").css("display", "none");
     	if(slide_place == places) slide_place = 1;
     	else ++slide_place;
@@ -26,6 +30,9 @@ $(document).ready(function(){
     });
 
     $("#prevplace").click(function(){
+        $(this).hide();
+        setTimeout(activate, 500);
+
     	$(".place-cont > .place-desc > div").css("display", "none");
     	if(slide_place == 1) slide_place = places;
     	else --slide_place;
@@ -38,6 +45,9 @@ $(document).ready(function(){
     	$("#" + p).css("display","block");
     });
     $("#nextrest").click(function(){
+    	$(this).hide();
+    	setTimeout(activate, 500);
+
     	$(".place-cont > .rest-desc > div").css("display", "none");
     	if(slide_rest == restaurants) slide_rest = 1;
     	else ++slide_rest;
@@ -48,6 +58,9 @@ $(document).ready(function(){
     	$("#" + p).css("display","block");
     });
     $("#prevrest").click(function(){
+    	$(this).hide();
+    	setTimeout(activate, 500);
+
     	$(".place-cont > .rest-desc > div").css("display", "none");
     	if(slide_rest == 1) slide_rest = restaurants;
     	else --slide_rest;
@@ -75,4 +88,13 @@ function initMap(){
     mount     = L.marker([45.504004, -73.586849]).addTo(mymap).bindPopup('MOUNT ROYAL'),
     biodome   = L.marker([45.559662, -73.549880]).addTo(mymap).bindPopup('MONTREAL BIODOME'),
     bros      = L.marker([45.505935, -73.555969]).addTo(mymap).bindPopup('BROS PIZZERIA');
+}
+
+//If we click too fast the carousel arrows, it could arise an inconsistence between photos and text. 
+//Let's disable the arrows during a short period of time.
+function activate(){
+	$("#prevrest").show();
+	$("#nextrest").show();
+	$("#prevplace").show();
+	$("#nextplace").show();
 }
