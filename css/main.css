@@ -35,6 +35,10 @@ html,body{
 	color: white;
 	padding-left: 17%;
 	transition: color 0s !important
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
 }
 #title:hover{
 	cursor: pointer;
@@ -45,6 +49,10 @@ html,body{
 	color: white;
 	font-size: 15px;
 	margin-left: 15px;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
 }
 
 #vid{
