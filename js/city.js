@@ -16,6 +16,8 @@ $(document).ready(function(){
     });
 
     $("#nextplace").click(function(){
+        /*If we click too fast the carousel arrows, it could arise an inconsistence between photos and text. 
+        Let's disable the arrows during a short period of time.*/
         $(this).hide();
         setTimeout(activate, 500);
 
@@ -75,8 +77,7 @@ $(document).ready(function(){
     
  });
 
-//If we click too fast the carousel arrows, it could arise an inconsistence between photos and text. 
-//Let's disable the arrows during a short period of time.
+
 function activate(){
 	$("#prevrest").show();
 	$("#nextrest").show();
